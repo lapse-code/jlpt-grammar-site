@@ -111,6 +111,10 @@ function writeHomepage() {
     "",
     "如果你想按接续方式理解语法结构，先看 [[N2文法7项接口分类]]。",
     "",
+    "## 说明",
+    "",
+    "这是一个个人整理的 JLPT N2/N3 文法笔记库，使用 AI 辅助做了部分结构化整理。内容可能有错漏，欢迎指出；正式学习和备考请以教材、词典和官方资料为准。",
+    "",
   ].join("\n");
   fs.writeFileSync(path.join(contentRoot, "index.md"), homepage, "utf8");
 }
